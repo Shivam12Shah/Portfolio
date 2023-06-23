@@ -1,0 +1,269 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html {
+  scroll-behavior: smooth;
+}
+#main{
+  width: 100%;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#title{
+  margin: 20px 30px;
+}
+#content{
+  margin: 20px 30px;
+}
+#content a{
+  margin: 10px 20px;
+}
+#profile{
+  width: 100%;
+
+}
+#intro{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top:80px;
+
+}
+#intro h3{
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+#profilePart2{
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-evenly;
+  position: relative;
+}
+.part2{
+  max-width: 300px;
+}
+#Experience{
+  text-align: right;
+}
+#project{
+  text-align: right;
+}
+#profilephoto{
+  width: 350px;
+  height: 600px;
+  position: relative;
+  border-radius: 170px;
+  border: 1px solid black;
+}
+#phot{
+  width: 300px;
+  height: 550px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  transform: translate(-50% -50%);
+  border-radius: 170px;
+  background-image: url("https://i.pinimg.com/564x/b7/89/2d/b7892d71656506ab2b89c84e888ed0ee.jpg");
+  background-size: cover;
+}
+#socialmedia{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#socialmedia i {
+  color: black;
+}
+#socialmedia i{
+  padding: 10px 30px;
+}
+
+hr{
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(118, 118, 118, 0);
+}
+#skills{
+  width: 100%;
+}
+#skills h1{
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+  font-size: 3em;
+}
+#skillspart{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 50px;
+}
+
+.skill{
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  background: #f3f3f3;
+  border-radius: 30px;
+
+}
+.skill h3{
+  position: relative;
+  top: 30px;
+}
+#frontend{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly ;
+  position: relative;
+  top: 60px;
+}
+#logo{
+  width: 75px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  background: #ffffffbf;
+  border-radius: 40px;
+}
+#logo img{
+  width: 43px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+
+}
+#backend, #git{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly ;
+  position: relative;
+  top: 60px;
+}
+#Qualification{
+  width: 100%;
+}
+#Qualification h1{
+  text-align: center;
+  font-size: 3em;
+}
+#education{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.edu{
+  width: 400px;
+}
+.edu h2{
+  font-size: 30px;
+  padding: 30px 0px;
+}
+.school{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+.course h2{
+  display: flex;
+  text-align: center;
+}
+
+.courseDetails{ 
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+#services{
+  width: 100%;
+
+}
+#services h1{
+  text-align: center;
+  font-size: 3em;
+}
+#mainService{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#service{
+  width: 300px;
+  height: 450px;
+  background: #95959574;
+  position: relative;
+  border-radius: 150px;
+}
+
+#service h2 {
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+#service p{
+  text-align: center;
+  padding: 0 40px;
+  position: relative;
+  top: 180px;
+}
+
+
+@media (max-width:768px) {
+
+  #skillspart
+  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  }
+  #profilePart2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6vh;
+      position: relative;
+  }
+  #profilephoto{
+      position: relative;
+      top: -550px ;
+  }
+  #bioAndcontent{
+      position: relative;
+      top: 650px;
+  }
+  #experienceprojects{
+      text-align: left;
+  }
+  #education{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  #mainService{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3vh;
+  }
+
+}
