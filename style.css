@@ -537,6 +537,9 @@ hr {
 }
 
 @media (max-width:600px) {
+  #main{
+    position: relative;
+  }
   #intro h3 {
     padding: 0px 20px;
   }
