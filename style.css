@@ -23,7 +23,9 @@ body {
   position: relative;
   /* cursor: none; */
 }
-
+p{
+  font-family: gilroy;
+}
 #nav-bar {
   position: absolute;
   width: 100%;
@@ -366,14 +368,15 @@ hr {
 #service h2 {
   text-align: center;
   position: relative;
-  top: 130px;
+  top: 140px;
 }
 
 #service p {
   text-align: center;
   padding: 0 50px;
   position: relative;
-  top: 150px;
+  top: 170px;
+  font-size: 14px;
 }
 
 #project-section {
